@@ -14,12 +14,13 @@ app.get('/get', function (req, res) {
     let type = parseInt(req.query.type) || 2;
     let anon = parseInt(req.query.anon) || 3;
     let cntr = req.query.cntr || 'USA';
-    let there = `(type=${type} AND sec_lvl=${anon} AND country LIKE '%${cntr}%')`
+    let there = `(type=${type} AND sec_lvl=${anon})`; // AND country LIKE '%${cntr}%')`
     let query = `SELECT * FROM proxies WHERE ${there}`;
     console.log(query);
-    db.all(query, function(err, rows) {
+    db.all(query, function (err, rows) {
         let resp_obj = { proxies: rows };
         let response = JSON.stringify(resp_obj);
+        //let response = { proxies: [{ ip: "178.32.10.165", port: 1080 }]};
         res.send(response);
     });
 });
