@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PoxyProxy", "PoxyProxy\PoxyProxy.njsproj", "{292ED059-F482-4359-A4AF-726A5C84438A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoxyProxy", "CoxyProxy", "{C272ADFA-4F37-4615-8D65-39E10C581D4A}"
+	ProjectSection(SolutionItems) = preProject
+		CoxyProxy\icon.png = CoxyProxy\icon.png
+		CoxyProxy\manifest.json = CoxyProxy\manifest.json
+		CoxyProxy\popup.html = CoxyProxy\popup.html
+		CoxyProxy\popup.js = CoxyProxy\popup.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{292ED059-F482-4359-A4AF-726A5C84438A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292ED059-F482-4359-A4AF-726A5C84438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292ED059-F482-4359-A4AF-726A5C84438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292ED059-F482-4359-A4AF-726A5C84438A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

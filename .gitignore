@@ -1,0 +1,3 @@
+/PoxyProxy/node_modules/*
+/PoxyProxy/obj/*
+.vs/*

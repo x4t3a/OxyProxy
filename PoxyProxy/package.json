@@ -1,0 +1,13 @@
+{
+    "name": "poxy-proxy",
+    "version": "0.0.0",
+    "description": "PoxyProxy",
+    "main": "server.js",
+    "author": {
+        "name": "Andrej Dunaev"
+    },
+    "dependencies": {
+        "express": "^4.15.2",
+        "sqlite3": "^3.1.8"
+    }
+}
