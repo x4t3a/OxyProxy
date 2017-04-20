@@ -6,7 +6,7 @@ let db = new sqlite3.Database('proxies.sqlite3');
 const port = process.env.POXY_PROXY_PORT || 10007;
 
 app.get('/', function (req, res) {
-    res.redirect('/get/https');
+    res.redirect('/get');
 });
 
 app.get('/get', function (req, res) {
